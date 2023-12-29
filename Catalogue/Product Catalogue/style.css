@@ -1,24 +1,33 @@
 body{
     margin: 0;
-    font-family: Poppins;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .container{
     width: 90rem;
     margin: auto;
     max-width: 90vw;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 80px;
     transition: transform .5s;
 }
 svg{
     width: 30px;
 }
-header{
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow at the bottom of the header */
+    padding: 10px 20px; /* Add padding to the header for spacing */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    z-index: 1000;
+    cursor: pointer;
 }
+
 .icon-cart{
     position: relative;
     cursor: pointer;
@@ -46,7 +55,7 @@ header{
     object-fit: cover; /* Maintain aspect ratio and cover the entire space */
 }
 .listProduct .item img:hover{
-    transform: scale(1.8);
+    transform: scale(1.4);
 }
 .listProduct{
     display: grid;
@@ -183,7 +192,7 @@ button.removeItem {
         max-width: 90vw;
     }
     .listProduct{
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
     .cartTab{
         width: 400px;
@@ -201,11 +210,14 @@ button.removeItem {
         max-width: 80vw;
     }
     .listProduct{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .cartTab{
         width: 300px;
         right: -300px;
+    }
+    .icon-cart span{
+        margin-right: 5px;
     }
     body.showCart .container{
         transform: translateX(-200px);
@@ -218,14 +230,40 @@ button.removeItem {
         width: 70rem;
         max-width: 70vw;
     }
-    .listProduct{
-        grid-template-columns: repeat(2, 1fr);
+    header {
+        margin-bottom: 20px; /* Adjust the margin bottom value to increase or decrease the space */
+    } 
+    .title{
+        font-size: 25px;
+        font-weight: 550;
     }
+    .listProduct{
+        margin-top: 25px; /* Adjust the margin top value to increase or decrease the space */
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Add this CSS to your existing style.css file */
+    .listProduct .item img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 50px 20px #0009);
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+    transform: scale(1);
+    }
+    .listProduct .item img.enlarged {
+        transform: scale(1.2);
+    }
+
     .cartTab{
         width: 200px;
         right: -200px;
     }
     body.showCart .container{
         transform: translateX(-150px);
+    }
+    .icon-cart span{
+        margin-right: 5px;
     }
 }

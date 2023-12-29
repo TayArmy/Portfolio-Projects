@@ -7,7 +7,6 @@ let closeCart = document.querySelector('.close');
 let products = [];
 let cart = [];
 
-
 iconCart.addEventListener('click', () => {
     body.classList.toggle('showCart');
 })
@@ -166,11 +165,19 @@ const initApp = () => {
 }
 initApp();
 
-// ... (existing code)
+// JavaScript code for returning to the top of the page when the title is tapped
+document.addEventListener('DOMContentLoaded', function() {
+    var title = document.querySelector('.title');
+
+    title.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top of the page with smooth behavior
+    });
+});
+
 
 // Function to construct the WhatsApp URL with the order details
 const constructWhatsAppURL = () => {
-    const recipientPhoneNumber = '+2348024756428'; // Replace with the actual recipient's phone number
+    const recipientPhoneNumber = '+2349019336266'; // Replace with the actual recipient's phone number
     let orderMessage = 'Your order details:\n';
     cart.forEach(item => {
         let positionProduct = products.findIndex((value) => value.id == item.product_id);
@@ -179,7 +186,7 @@ const constructWhatsAppURL = () => {
     });
     orderMessage += `Total Quantity: ${iconCartSpan.innerText}`;
 
-    return `https://wa.me/${+2348024756428}?text=${encodeURIComponent(orderMessage)}`;
+    return `https://wa.me/${+2349019336266}?text=${encodeURIComponent(orderMessage)}`;
 }
 
 
