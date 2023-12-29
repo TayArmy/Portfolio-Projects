@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: #eee;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container .title {
+    font-size: 5rem;
+    color: #444;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container .products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.container .products-container .product {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    outline: .1rem solid #ccc;
+    outline-offset: -1.5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.container .products-container .product:hover {
+    outline: .2rem solid #222;
+    outline-offset: 0;
+}
+
+/* Existing CSS styles remain the same */
+
+.container .products-container .product img {
+    height: 25rem;
+    width: 30rem;
+    transition: transform 0.3s ease; /* Added transition property for smooth animation */
+}
+
+.container .products-container .product:hover img {
+    transform: scale(1.8); /* Increased scale value to zoom in the image */
+}
+
+
+.container .products-container .product h3 {
+    padding: .5rem 0;
+    font-size: 2rem;
+    color: #444;
+}
+
+.container .products-container .product h4 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.container .products-container .product:hover h3 {
+    color: #27ae60;
+}
+
+.container .products-container .product .price {
+    font-size: 2.5rem;
+    color: #27ae60;
+}
+
+.container .products-container .product .quantity-selection {
+    /* Existing styles */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem; /* Adjusted margin-top for quantity-selection */
+}
+
+.container .products-container .product .quantity-selection .quantity-btn {
+    /* Existing styles */
+    padding: 1rem; /* Adjusted padding for quantity-btn */
+    font-size: 2rem; /* Increased font size for quantity-btn */
+}
+
+/* Existing CSS styles remain the same */
+
+.container .products-container .product .quantity-selection .quantity-btn {
+    /* Existing styles */
+    padding: 0.5rem; /* Adjusted padding for quantity-btn */
+    margin: 0.8rem;
+    font-size: 1.8rem; /* Adjusted font size for quantity-btn */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.container .products-container .product .quantity-selection .quantity-btn:hover {
+    /* Added hover styles for quantity-btn */
+    background-color: #eee;
+}
+
+.container .products-container .product .quantity-selection .quantity-btn:active {
+    /* Added active styles for quantity-btn */
+    background-color: #ccc;
+}
+
+.container .products-container .product .quantity-selection .quantity-btn.minus-btn {
+    /* Added styles for minus button */
+    border-radius: 50%;
+    margin-right: 0.5rem; /* Adjusted margin-right for minus button */
+}
+
+.container .products-container .product .quantity-selection .quantity-btn.plus-btn {
+    /* Added styles for plus button */
+    border-radius: 50%;
+    margin-left: 0.5rem; /* Adjusted margin-left for plus button */
+}
+
+
+.container .products-container .product .select-btn {
+    /* Added styles for select button */
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    background-color: #27ae60;
+    color: #fff;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container .products-container .product .select-btn:hover {
+    /* Added hover styles for select button */
+    background-color: #02140a;
+}
+
+/* Existing CSS styles remain the same */
+
+.container .send {
+    /* Add your CSS styles for the send order button here */
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-size: 2.5rem;
+}
+
+.container .send:hover {
+    /* Add your CSS styles for the send order button on hover here */
+    background-color: #a10895;
+}
+
+
+@media (max-width:991px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width:768px){
+    .products-preview .preview img{
+        height: 25rem;
+    }
+}
+
+@media (max-width:450px) {
+    html{
+        font-size: 50%;
+    }
+}

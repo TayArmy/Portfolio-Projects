@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h3 class="title">Faithful Gems Bead Catalogue</h3>
+
+        <div class="products-container">
+
+            <div class="product" data-name="p-1">
+                <img src="images/1.png" alt="">
+                <h4>Friend Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn" onclick="selectProduct('p-1')">Select</button> <!-- Added onclick event -->
+            </div>
+
+
+            <div class="product" data-name="p-2">
+                <img src="images/2.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_2', -1)">-</button>
+                    <span class="quantity" id="quantity_2">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_2', 1)">+</button>
+                </div>
+                <button class="select-btn" onclick="selectProduct('p-2')">Select</button> <!-- Added onclick event -->
+            </div>
+
+            <div class="product" data-name="p-3">
+                <img src="images/3.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#400</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_3', -1)">-</button>
+                    <span class="quantity" id="quantity_3">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_3', 1)">+</button>
+                </div>
+                <button class="select-btn" onclick="selectProduct('p-3')">Select</button> <!-- Added onclick event -->
+            </div>
+
+            <div class="product" data-name="p-4">
+                <img src="images/4.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_4', -1)">-</button>
+                    <span class="quantity" id="quantity_4">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_4', 1)">+</button>
+                </div>
+                <button class="select-btn" onclick="selectProduct('p-4')">Select</button> <!-- Added onclick event -->
+            </div>
+
+            <div class="product" data-name="p-5">
+                <img src="images/5.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#700</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_5', -1)">-</button>
+                    <span class="quantity" id="quantity_5">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_5', 1)">+</button>
+                </div>
+                <button class="select-btn" onclick="selectProduct('p-5')">Select</button> <!-- Added onclick event -->
+            </div>
+
+            <div class="product" data-name="p-6">
+                <img src="images/6.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#400</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_6', -1)">-</button>
+                    <span class="quantity" id="quantity_6">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_6', 1)">+</button>
+                </div>
+                <button class="select-btn" onclick="selectProduct('p-6')">Select</button> <!-- Added onclick event -->
+            </div>
+
+            <div class="product" data-name="p-7">
+                <img src="images/7.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#300</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_7', -1)">-</button>
+                    <span class="quantity" id="quantity_7">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_7', 1)">+</button>
+                </div>
+                <button class="select-btn" onclick="selectProduct('p-7')">Select</button> <!-- Added onclick event -->
+            </div>
+
+            <div class="product" data-name="p-8">
+                <img src="images/8.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_8', -1)">-</button>
+                    <span class="quantity" id="quantity_8">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_8', 1)">+</button>
+                </div>
+                <button class="select-btn" onclick="selectProduct('p-8')">Select</button> <!-- Added onclick event -->
+            </div>
+
+            <div class="product" data-name="p-9">
+                <img src="images/9.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#700</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_9', -1)">-</button>
+                    <span class="quantity" id="quantity_9">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_9', 1)">+</button>
+                </div>
+                <button class="select-btn" onclick="selectProduct('p-9')">Select</button> <!-- Added onclick event -->
+            </div>
+
+            <div class="product" data-name="p-10">
+                <img src="images/10.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_10', -1)">-</button>
+                    <span class="quantity" id="quantity_10">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_10', 1)">+</button>
+                </div>
+                <button class="select-btn" onclick="selectProduct('p-10')">Select</button> <!-- Added onclick event -->
+            </div>
+
+            <div class="product" data-name="p-11">
+                <img src="images/11.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#350</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_11', -1)">-</button>
+                    <span class="quantity" id="quantity_11">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_11', 1)">+</button>
+                </div>
+                <button class="select-btn" onclick="selectProduct('p-11')">Select</button> <!-- Added onclick event -->
+            </div>
+
+            <div class="product" data-name="p-12">
+                <img src="images/12.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-13">
+                <img src="images/13.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-14">
+                <img src="images/14.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-15">
+                <img src="images/15.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-16">
+                <img src="images/16.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-17">
+                <img src="images/17.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-18">
+                <img src="images/18.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-19">
+                <img src="images/19.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-20">
+                <img src="images/20.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-21">
+                <img src="images/21.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#350</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-22">
+                <img src="images/22.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#700</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-23">
+                <img src="images/23.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#300</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-24">
+                <img src="images/24.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#400</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-25">
+                <img src="images/25.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+            
+            <div class="product" data-name="p-26">
+                <img src="images/26.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#350</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-27">
+                <img src="images/27.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-28">
+                <img src="images/28.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+            
+            <div class="product" data-name="p-29">
+                <img src="images/29.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+            
+            <div class="product" data-name="p-30">
+                <img src="images/30.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+            
+            <div class="product" data-name="p-31">
+                <img src="images/31.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#350</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-32">
+                <img src="images/32.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-33">
+                <img src="images/33.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#350</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-34">
+                <img src="images/34.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#500</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-35">
+                <img src="images/35.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-36">
+                <img src="images/36.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-37">
+                <img src="images/37.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-38">
+                <img src="images/38.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#700</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-39">
+                <img src="images/39.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-40">
+                <img src="images/40.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#350</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-41">
+                <img src="images/41.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#350</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-42">
+                <img src="images/42.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-43">
+                <img src="images/43.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#350</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-44">
+                <img src="images/44.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#350</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-45">
+                <img src="images/45.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#400</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-46">
+                <img src="images/46.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-47">
+                <img src="images/47.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#200</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-48">
+                <img src="images/48.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#350</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-49">
+                <img src="images/49.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#500</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-50">
+                <img src="images/50.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#350</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-51">
+                <img src="images/51.png" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-52">
+                <img src="images/52.jpg" alt="">
+                <h3>Waist Beads</h3>
+                <div class="price">#1000</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-53">
+                <img src="images/53.jpg" alt="">
+                <h3>Native Necklace,Hand Bead and Earrings</h3>
+                <div class="price">#</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-54">
+                <img src="images/54.jpg" alt="">
+                <h3>Native Necklace</h3>
+                <div class="price">#</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-55">
+                <img src="images/55.jpg" alt="">
+                <h3>Native Necklace,Hand Bead and Earrings</h3>
+                <div class="price">#</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-56">
+                <img src="images/56.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#500</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-57">
+                <img src="images/57.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#1000</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-58">
+                <img src="images/58.jpg" alt="">
+                <h3>Native Wood Necklace</h3>
+                <div class="price">#700</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-59">
+                <img src="images/59.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#500</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-60">
+                <img src="images/60.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-61">
+                <img src="images/61.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-62">
+                <img src="images/62.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-63">
+                <img src="images/63.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-64">
+                <img src="images/64.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-65">
+                <img src="images/65.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-66">
+                <img src="images/66.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-67">
+                <img src="images/67.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-68">
+                <img src="images/68.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-69">
+                <img src="images/69.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span class="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn">Select</button> 
+            </div>
+
+            <div class="product" data-name="p-70">
+                <img src="images/70.jpg" alt="">
+                <h4>Hand Bead</h4>
+                <div class="price">#250</div>
+                <div class="quantity-selection">
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', -1)">-</button>
+                    <span cla8ss="quantity" id="quantity_1">0</span>
+                    <button class="quantity-btn" onclick="changeQuantity('quantity_1', 1)">+</button>
+                </div>
+                <button class="select-btn" onclick="selectProduct('p-70')">Select</button> 
+            </div>
+
+        </div>
+        <button class="send" onclick="sendOrder()">Send Order</button>
+    </div>
+ 
+    <!-- ... Your HTML code ... -->
+
+    <script>
+        function changeQuantity(quantityId, change) {
+            const quantityElement = document.getElementById(quantityId);
+            let quantity = parseInt(quantityElement.textContent);
+            quantity += change;
+            if (quantity < 0) {
+                quantity = 0;
+            }
+            quantityElement.textContent = quantity;
+        }
+
+        function selectProduct(productId) {
+            // You can add your logic here to handle the selection of the product
+            console.log(`Selected product: ${productId}`);
+        }
+    </script>
+
+</body>
+</html>
