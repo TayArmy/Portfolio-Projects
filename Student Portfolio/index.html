@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alabeni</title>
+    <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <!-- header  -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="logo">
+          <img src="./Assets/Icons/logo1.jpeg" alt="" />
+        </div>
+        <a href="#" class="nav-logo">Alabeni Temiloluwa</a>
+
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list grid">
+            <li class="nav-item">
+              <a href="#home" class="nav-link"
+                ><i class="fa-solid fa-house nav-icon"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link"
+                ><i class="fa-solid fa-user nav-icon"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link"
+                ><i class="fa-solid fa-briefcase nav-icon"></i> Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link"
+                ><i class="fa-solid fa-message nav-icon"></i> Contact</a>
+            </li>
+            
+          </ul>
+        
+          <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+        </div>
+
+        <div class="nav-btns">
+          <!-- theme btn  -->
+          <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+         
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home-container container grid">
+          <div class="home-content grid">
+            <div class="home-social">
+              <a href="https://www.instagram.com/wunmi_alabeni?igsh=YWYwM2I1ZDdmOQ==" target="_blank" class="home-social-icon"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/alabeni-temiloluwa-058844209" target="_blank" class="home-social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://www.facebook.com/wunmialabeni" target="_blank" class="home-social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://twitter.com/thatTemie" target="_blank" class="home-social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+            <div class="home-img">
+              <img class="profile-pic" src="./Assets/Icons/logo1.jpeg" alt="" />
+            </div>
+
+            <div class="home-data">
+              <h1 class="home-title">👋 Hi, I am Alabeni Temiloluwa</h1>
+              <h3 class="home-subtitle">Law Student</h3>
+              <p class="home-description">
+                A final year student of Law at the University of Ilorin pursuing a Degree in Common Law with career interests in public interest law, community development, legal aid and pro bono work, social justice and advocacy.
+              </p>
+              <a href="#contact" class="button button-flex">
+                Contact Me <i class="fa-regular fa-envelope button-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home-scroll">
+            <a href="#about" class="home-scroll-button button-flex">
+              <i class="fa-solid fa-computer-mouse home-scroll-mouse"></i><!-- <i class="fa-solid fa-computer-mouse home-scroll-mouse"></i> -->
+              <span class="home-scroll-name">Scroll down</span>
+              <i class="fa-solid fa-angles-down home-scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container container grid">
+          <img src="Assets/Icons/aboutimg.png" alt="" class="about-img" />
+
+          <div class="about-data">
+            <p class="about-description">
+              I am a dedicated and passionate law student currently pursuing my L.L.B in Common Law at the University of Ilorin, Kwara State, Nigeria. I have a strong interest in legal consulting and I am committed to acquiring a comprehensive understanding of the intricacies of the legal field.
+
+My academic journey, coupled with hands-on experiences and active involvement in legal advocacy, has equipped me with valuable insights into various aspects of the law and I continuously strive to expand my knowledge through rigorous legal research and practical applications.
+
+As a fervent advocate for student rights within the university community and a committed member of the Law Students Society, I have honed my communication and interpersonal skills. My academic pursuits, coupled with my proactive approach to challenges, drive my enthusiasm for contributing meaningfully to the legal profession.
+            </p>
+
+            <div class="about-buttons">
+              <a
+                download=""
+                href="/Assets/Resume.pdf"
+                class="button button-flex"
+              >
+                Download Resume<i class="fa-solid fa-file-arrow-down button-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- qualifications  -->
+      <section class="qualification section">
+        <h2 class="section-title">Qualification</h2>
+        <span class="section-subtitle">My journey</span>
+
+        <div class="qualification-container container">
+          <div class="qualification-tabs">
+            <div
+              class="qualification-button button-flex qualification-active"
+              data-target="#education"
+            >
+              <i class="fa-solid fa-graduation-cap qualification-icon"></i>
+              Education
+            </div>
+            <div class="qualification-button button-flex" data-target="#work">
+              <i class="fa-solid fa-briefcase qualification-icon"></i>
+              Work
+            </div>
+          </div>
+
+          <div class="qualification-section">
+            <div
+              class="qualification-content qualification-active"
+              data-content
+              id="education"
+            >
+              <!-- qualifi 1 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">
+                    Bachelor of Laws (L.L.B.)
+                  </h3>
+                  <span class="qualification-subtitle">University of Ilorin</span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    In-View
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification-round"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+
+              <!-- qualifi 2 -->
+
+              <div class="qualification-data">
+                <div></div>
+
+                <div>
+                  <span class="qualification-round"></span>
+                  <span class="qualification-line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification-title">
+                    IJMB
+                  </h3>
+                  <span class="qualification-subtitle">Aodac School of Preliminary Studies</span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2018
+                  </div>
+                </div>
+              </div>
+              </div>
+
+            <!-- qualific content 2  -->
+            <div class="qualification-content" data-content id="work">
+              <!-- qualifi 1 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Law Intern</h3>
+                  <span class="qualification-subtitle"> Ministry of Justice, Ilorin Kwara State </span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2022 - Present
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification-round"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+
+              <!-- qualifi 2 -->
+
+              <div class="qualification-data">
+                <div></div>
+
+                <div>
+                  <span class="qualification-round"></span>
+                  <span class="qualification-line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification-title">Law Intern</h3>
+                  <span class="qualification-subtitle">Gold showers Legal Practitioners Bank </span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2023
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <h2 class="section-title">Services</h2>
+        <span class="section-subtitle">What I offer</span>
+
+        <div class="services-container container grid">
+          <!-- service 1  -->
+          <div class="services-content">
+            <div>
+              <i class="fa-solid fa-scale-balanced services-icon"></i>
+              
+              <h3 class="services-title">
+                Legal <br />
+                Research
+              </h3>
+            </div>
+          </div>
+          <!-- service 2  -->
+          <div class="services-content">
+            <div>
+              <i class="fa-solid fa-pen-to-square services-icon"></i>
+              <h3 class="services-title">
+                legal writing  <br />
+                and editing
+              </h3>
+            </div>
+          </div>
+          <!-- service 3  -->
+          <div class="services-content">
+            <div>
+              <i class="fa-solid fa-feather services-icon"></i>
+              <h3 class="services-title">
+                Creative<br />
+                Writing
+              </h3>
+            </div>
+          </div>
+
+          <!-- service 4  -->
+          <div class="services-content">
+            <div>
+              <i class="fa-solid fa-handshake-angle services-icon"></i>
+              <h3 class="services-title">
+                Pro Bono<br />
+                Work
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      
+      
+      <!-- contact me  -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact me</h2>
+        <span class="section-subtitle">Get in touch</span>
+
+        <div class="contact-container container grid">
+          <div>
+            <div class="contact-info">
+              <i class="fa-regular fa-envelope contact-icon"></i>
+              <div>
+                <h3 class="contact-title">Email</h3>
+                <a
+                  href="mailto:alabenitemiloluwa@gmail.com"
+                  target="_blank"
+                  class="contact-subtitle"
+                  >alabenitemiloluwa@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-info">
+              <i class="fa-brands fa-linkedin-in contact-icon"></i>
+              <div>
+                <h3 class="contact-title">Linkedin</h3>
+                <a
+                  class="contact-subtitle"
+                  href="https://www.linkedin.com/alabenitemiloluwa"
+                  target="_blank"
+                  >@alabenitemiloluwa</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer  -->
+      <footer class="footer">
+        <div class="footer-bg">
+          <div class="footer-container container grid">
+            <div>
+              <h1 class="footer-title">Alabeni Temiloluwa</h1>
+              <span class="footer-subtitle">Law Student</span>
+            </div>
+            <ul class="footer-links">
+              <li>
+                <a href="#home" class="footer-link">Home</a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">Services</a>
+              </li>
+              <li>
+                <a href="#contact" class="footer-link">Contact</a>
+              </li>
+            </ul>
+
+            <div class="footer-socials">
+              <a href="https://www.instagram.com/wunmi_alabeni?igsh=YWYwM2I1ZDdmOQ==" target="_blank" class="footer-social"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/alabeni-temiloluwa-058844209" target="_blank" class="footer-social"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://www.facebook.com/wunmialabeni" target="_blank" class="footer-social"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://twitter.com/thatTemie" target="_blank" class="footer-social"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+          <p class="footer-copy">@TayArmy</p>
+        </div>
+      </footer>
+    </main>
+
+    <a href="#home" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-angles-up scroll-up-icon"></i>
+    </a>
+    <script src="Libraries/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9b634c15bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <!-- Add this where you want to display the visit count -->
+  <div id="visit-count-container"></div>
+  </body>
+</html>
