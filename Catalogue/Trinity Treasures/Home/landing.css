@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    width: 100%;
+    pointer-events: none;
+    user-select: none;
+}
+
+h1{
+    font-size: clamp(5rem, 2vw, 2rem);
+    font-weight: 900;
+    text-align: center;
+    color: #000;
+    user-select: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    min-height: 100vh;
+    background: #fff;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    max-width: 300px;
+    height: 380px;
+    border-radius: 15px;
+    margin: 20px 0 40px;
+    overflow: hidden;
+    box-shadow: 0 8px 10px rgba(0, 0, 0.5), inset 0 2px 2px rgba(255, 255, 255, 0.2);
+    cursor: grab;
+}
+
+/*content*/
+.content{
+    position: relative;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-rows: 2fr 1fr 3fr 1fr;
+    gap:  10px;
+    height: 100%;
+    padding: 10px;
+    background: rgba(104, 104, 104, 0.5);
+    color: #fff;
+    user-select: none;
+}
+
+.content::before,
+.content::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: inherit;
+    background: rgb(82, 3, 85);
+
+}
+
+.content img{
+    aspect-ratio: 3/2;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.content h2{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/*button*/
+
+a.btn {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.btn button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece9e6;
+    color: #000;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 16px;
+    margin-bottom: 2px;
+    box-shadow: 0 0 5px #eee;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:is(:hover, :focus-visible){
+    transform: scale(0.97);
+}
+
+/*control*/
+
+.control{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 14px;
+}
+
+.control li{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(82, 3, 85);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4), inset 0 4px 4px rgba(255, 255, 255, 0.2);
+    padding: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.control li:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #99559b, #3b3d8a);
+    border-radius: 50%;
+    z-index: -1;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+}
+
+.control li:hover::before{
+    opacity: 1;
+}
+
+.arrow{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Media Queries */
+
+/* Large screens (1200px and above) */
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 90rem;
+        max-width: 90vw;
+    }
+    
+    .swiper-slide {
+        max-width: 400px;
+        height: 500px;
+    }
+}
+
+/* Medium screens (768px to 1199px) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+        width: 80rem;
+        max-width: 80vw;
+    }
+    .content img{
+        height: 280px;
+    }
+    h1 {
+        font-size: 5rem;
+        text-align: center;
+    }
+    .swiper-slide {
+        max-width: 350px;
+        height: 420px;
+    }
+}
+
+/* Small screens (up to 767px) */
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 70rem;
+        max-width: 70vw;
+    }
+    .content img{
+        height: 230px;
+    }
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .swiper-slide {
+        max-width: 300px;
+        height: 360px;
+    }
+}

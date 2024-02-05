@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name":" HAND WOVEN BASKET SET",
+        "price": 40000,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" HAND WOVEN CHAIR",
+        "price": 55000,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" HAND WOVEN TRAY",
+        "price": 6000,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" PLACE MATS",
+        "price": 3500,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" LAMP HOLDER",
+        "price": 6000,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" CLOTH BASKET",
+        "price": 4000,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" HAND WOVEN TROLLEY",
+        "price": 35000,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" FLOWER VASES",
+        "price": 30000,
+        "image": "image/8.png"
+    },
+    {
+        "id": 9,
+        "name":" HAND WOVEN BASKET",
+        "price": 12000,
+        "image": "image/9.png"
+    },
+    {
+        "id": 10,
+        "name":" WALL MAT",
+        "price": 6000,
+        "image": "image/10.png"
+    },
+    {
+        "id": 11,
+        "name":" HAND WOVEN HAND FAN",
+        "price": 2000,
+        "image": "image/11.png"
+    },
+    {
+        "id": 12,
+        "name":" ANIMAL SKIN TRADITIONAL FAN",
+        "price": 45000,
+        "image": "image/12.png"
+    },
+    {
+        "id": 13,
+        "name":" MIRROR",
+        "price": 250000,
+        "image": "image/13.png"
+    },
+    {
+        "id": 14,
+        "name":" HAND WOVEN BASKET",
+        "price": 25000,
+        "image": "image/14.png"
+    }
+]

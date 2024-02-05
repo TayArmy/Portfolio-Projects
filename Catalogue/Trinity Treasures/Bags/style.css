@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width: 90rem;
+    margin: auto;
+    max-width: 90vw;
+    text-align: center;
+    padding-top: 80px;
+    transition: transform .5s;
+}
+svg{
+    width: 30px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow at the bottom of the header */
+    padding: 10px 20px; /* Add padding to the header for spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.icon-cart{
+    position: relative;
+    cursor: pointer;
+}
+.icon-cart span{
+    position: absolute;
+    background-color: rgb(82, 3, 85);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    top: 50%;
+    right: -20px;
+}
+.title{
+    font-size: xx-large;
+}
+.listProduct .item img{
+    width: 70%;
+    height: 250px;
+    filter: drop-shadow(0 50px 20px #0009);
+    object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+}
+.listProduct .item img:hover{
+    transform: scale(1.4);
+}
+.listProduct{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.listProduct .item{
+    background-color: #EEEEE6;
+    padding: 20px;
+    border-radius: 20px;
+}
+.listProduct .item h2{
+    font-weight: 500;
+    font-size: large;
+}
+.listProduct .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+}
+.listProduct .item button{
+    background-color: #353432;
+    color: #eee;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.listProduct .item button:hover{
+    background-color: rgb(82, 3, 85);
+}
+/* cart */
+.cartTab{
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s;
+}
+body.showCart .cartTab{
+    right: 0;
+}
+body.showCart .container{
+    transform: translateX(-250px);
+}
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cartTab button{
+    background-color: rgb(82, 3, 85);
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Style for the "Remove" button */
+button.removeItem {
+    background-color: #E8BC0E; /* Set the background color */
+    color: #fff; /* Set the text color */
+    border: none; /* Remove the border */
+    padding: 8px 16px; /* Add padding for better visual appearance */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    margin-top: 5px; /* Add top margin for spacing */
+  }
+  
+  button.removeItem:hover {
+    background-color: rgb(82, 3, 85); /* Change the background color on hover */
+  }
+  
+.cartTab .close{
+    background-color: #E8BC0E;
+}
+.listCart .item img{
+    width: 100%;
+}
+.listCart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.listCart .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: #555;
+    cursor: pointer;
+}
+.listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+    cursor: auto;
+}
+.listCart .item:nth-child(even){
+    background-color: #eee1;
+}
+.listCart {
+    overflow-y: auto;
+    max-height: calc(100% - 140px); /* Adjust the max-height value as needed */
+}
+
+.listCart::-webkit-scrollbar {
+    width: 5px;
+}
+
+.listCart::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+.listCart::-webkit-scrollbar-track {
+    background-color: #eee;
+}
+
+/* CSS for large screens (desktops, laptops) */
+@media only screen and (min-width: 1200px) {
+    .container{
+        width: 90rem;
+        max-width: 90vw;
+    }
+    .listProduct{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .cartTab{
+        width: 400px;
+        right: -400px;
+    }
+    body.showCart .container{
+        transform: translateX(-250px);
+    }
+}
+
+/* CSS for medium screens (tablets, large phones) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .container{
+        width: 80rem;
+        max-width: 80vw;
+    }
+    .listProduct{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cartTab{
+        width: 300px;
+        right: -300px;
+    }
+    .icon-cart span{
+        margin-right: 5px;
+    }
+    body.showCart .container{
+        transform: translateX(-200px);
+    }
+}
+
+/* CSS for small screens (mobile phones) */
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 70rem;
+        max-width: 70vw;
+    }
+    header {
+        margin-bottom: 20px; /* Adjust the margin bottom value to increase or decrease the space */
+    } 
+    .title{
+        font-size: 25px;
+        font-weight: 550;
+    }
+    .listProduct{
+        margin-top: 25px; /* Adjust the margin top value to increase or decrease the space */
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Add this CSS to your existing style.css file */
+    .listProduct .item img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 50px 20px #0009);
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+    transform: scale(1);
+    }
+    .listProduct .item img.enlarged {
+        transform: scale(1.2);
+    }
+
+    .cartTab{
+        width: 200px;
+        right: -200px;
+    }
+    body.showCart .container{
+        transform: translateX(-150px);
+    }
+    .icon-cart span{
+        margin-right: 5px;
+    }
+}

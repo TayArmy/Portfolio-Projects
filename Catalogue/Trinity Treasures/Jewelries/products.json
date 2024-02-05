@@ -1,0 +1,266 @@
+[
+    {
+        "id": 1,
+        "name":" COWRIE NECKLACE",
+        "price": 5000,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" HEAD BAND AND EARRINGS",
+        "price": 3500,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" COWRIE NECKLACE AND HAND BAND",
+        "price": 12000,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" NATIVE BEAD AND HAND BEAD",
+        "price": 7000,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" CORAL NECKLACE",
+        "price": 120000,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" COWRIE CHOCKER NECKLACE",
+        "price": 7000,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" ANKARA NECKLACE",
+        "price": 5000,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" NATIVE SHELL NECKLACE",
+        "price": 4000,
+        "image": "image/8.png"
+    },
+    {
+        "id": 9,
+        "name":" COWRIE NECKLACE",
+        "price": 4000,
+        "image": "image/9.png"
+    },
+    {
+        "id": 10,
+        "name":" ANKARA NECKLACE AND EARRINGS",
+        "price": 6000,
+        "image": "image/10.png"
+    },
+    {
+        "id": 11,
+        "name":" ANKARA NECKLACE AND EARRINGS",
+        "price": 6000,
+        "image": "image/11.png"
+    },
+    {
+        "id": 12,
+        "name":" NATIVE BEAD CRYSTAL NECKLACE",
+        "price": 3500,
+        "image": "image/12.png"
+    },
+    {
+        "id": 13,
+        "name":" NATIVE NECKLACE AND HAND BEAD",
+        "price": 7000,
+        "image": "image/13.png"
+    },
+    {
+        "id": 14,
+        "name":" NATIVE BEAD NECKLACE",
+        "price": 12000,
+        "image": "image/14.png"
+    },
+    {
+        "id": 15,
+        "name":" NATIVE BEAD NECKLACE",
+        "price": 5000,
+        "image": "image/15.png"
+    },
+    {
+        "id": 16,
+        "name":" NATIVE BEAD NECKLACE",
+        "price": 2500,
+        "image": "image/16.png"
+    },
+    {
+        "id": 17,
+        "name":" CULTURAL BEAD NECK JEWELRY",
+        "price": 32000,
+        "image": "image/17.png"
+    },
+    {
+        "id": 18,
+        "name":" CULTURAL BEAD NECK JEWELRY",
+        "price": 35000,
+        "image": "image/18.png"
+    },
+    {
+        "id": 19,
+        "name":" CULTURAL BEAD NECK JEWELRY",
+        "price": 35000,
+        "image": "image/19.png"
+    },
+    {
+        "id": 20,
+        "name":" NATIVE BEAD NECKLACE",
+        "price": 3500,
+        "image": "image/20.png"
+    },
+    {
+        "id": 21,
+        "name":" NECKLACE",
+        "price": 3000,
+        "image": "image/21.png"
+    },
+    {
+        "id": 22,
+        "name":" CORAL NECKLACE",
+        "price": 7000,
+        "image": "image/22.png"
+    },
+    {
+        "id": 23,
+        "name":" COWRIE NECKLACE",
+        "price": 5000,
+        "image": "image/23.png"
+    },
+    {
+        "id": 24,
+        "name":" NATIVE NECKLACE AND HAND BEAD",
+        "price": 7000,
+        "image": "image/24.png"
+    },
+    {
+        "id": 25,
+        "name":" STRAW EARRINGS",
+        "price": 1500,
+        "image": "image/25.png"
+    },
+    {
+        "id": 26,
+        "name":" NATIVE BEAD NECKLACE",
+        "price": 40000,
+        "image": "image/26.png"
+    },
+    {
+        "id": 27,
+        "name":" NATIVE BEAD NECKLACE",
+        "price": 7000,
+        "image": "image/27.png"
+    },
+    {
+        "id": 28,
+        "name":" BEADED NECKLACE",
+        "price": 4000,
+        "image": "image/28.png"
+    },
+    {
+        "id": 29,
+        "name":" BEADED NECKLACE",
+        "price": 4000,
+        "image": "image/29.png"
+    },
+    {
+        "id": 30,
+        "name":" NATIVE NECKLACE AND HAND BEAD",
+        "price": 45000,
+        "image": "image/30.png"
+    },
+    {
+        "id": 31,
+        "name":" JEWELRY SET",
+        "price": 55000,
+        "image": "image/31.png"
+    },
+    {
+        "id": 32,
+        "name":" ANKARA EARRINGS",
+        "price": 1500,
+        "image": "image/32.png"
+    },
+    {
+        "id": 33,
+        "name":" WOODEN BEADED NECKLACE",
+        "price": 1000,
+        "image": "image/33.png"
+    },
+    {
+        "id": 34,
+        "name":" ANKARA EARRINGS",
+        "price": 1500,
+        "image": "image/34.png"
+    },
+    {
+        "id": 35,
+        "name":" ANKARA LOOP EARRINGS",
+        "price": 1500,
+        "image": "image/35.png"
+    },
+    {
+        "id": 36,
+        "name":" NATIVE BEAD NECKLACE, HAND BEAD AND EARRINGS",
+        "price": 1500,
+        "image": "image/36.jpg"
+    },
+    {
+        "id": 37,
+        "name":" FAUX TOOTH NECKLACE",
+        "price": 700,
+        "image": "image/37.jpg"
+    },
+    {
+        "id": 38,
+        "name":" NATIVE BEAD NECKLACE, HAND BEAD AND EARRINGS",
+        "price": 2500,
+        "image": "image/38.jpg"
+    },
+    {
+        "id": 39,
+        "name":" WAIST BEADS",
+        "price": 2500,
+        "image": "image/39.jpg"
+    },
+    {
+        "id": 40,
+        "name":" NATIVE BEAD NECKLACE",
+        "price": 1000,
+        "image": "image/40.jpg"
+    },
+    {
+        "id": 41,
+        "name":" ANKARA EARRINGS",
+        "price": 1500,
+        "image": "image/41.png"
+    },
+    {
+        "id": 42,
+        "name":" ANKARA LOOP EARRINGS",
+        "price": 1500,
+        "image": "image/42.png"
+    },
+    {
+        "id": 43,
+        "name":" ANKARA EARRINGS",
+        "price": 1500,
+        "image": "image/43.png"
+    },
+    {
+        "id": 44,
+        "name":" ANKARA EARRINGS",
+        "price": 1500,
+        "image": "image/44.png"
+    }
+]

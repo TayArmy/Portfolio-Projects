@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name":" AUTHENTIC BENIN MASK [LARGE]",
+        "price": 85000,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" AUTHENTIC METAL BENIN MASK [LARGE]",
+        "price": 180000,
+        "image": "image/2.png"
+    },
+    {
+        "id": 3,
+        "name":" HAND CRAFTED MASK [LARGE]",
+        "price": 90000,
+        "image": "image/3.png"
+    },
+    {
+        "id": 4,
+        "name":" HAND CRAFTED BRONZE HEAD [LARGE]",
+        "price": 150000,
+        "image": "image/4.png"
+    },
+    {
+        "id": 5,
+        "name":" HAND CRAFTED WOODEN HEAD [LARGE]",
+        "price": 85000,
+        "image": "image/5.png"
+    },
+    {
+        "id": 6,
+        "name":" HAND CRAFTED HEAD [MEDIUM]",
+        "price": 35000,
+        "image": "image/6.png"
+    },
+    {
+        "id": 7,
+        "name":" HAND CRAFTED ENLONGATED HEADS",
+        "price": 25000,
+        "image": "image/7.png"
+    },
+    {
+        "id": 8,
+        "name":" GOLD BENIN ROYALTIES",
+        "price": 20000,
+        "image": "image/8.png"
+    },
+    {
+        "id": 9,
+        "name":" AUTHENTIC HAND CRAFTED BENIN MASK [LARGE]",
+        "price": 85000,
+        "image": "image/9.png"
+    },
+    {
+        "id": 10,
+        "name":" WOODEN STATUES [SMALL]",
+        "price": 16000,
+        "image": "image/10.png"
+    },
+    {
+        "id": 11,
+        "name":" BENIN MASKS [MEDUIM]",
+        "price": 70000,
+        "image": "image/11.png"
+    },
+    {
+        "id": 12,
+        "name":" BENIN TRADITIONAL MASK [LARGE]",
+        "price": 150000,
+        "image": "image/12.png"
+    },
+    {
+        "id": 13,
+        "name":" HAND CRAFTED MASK [LARGE]",
+        "price": 100000,
+        "image": "image/13.png"
+    },
+    {
+        "id": 14,
+        "name":" TRADITIONAL ENLONGATED MASK",
+        "price": 15000,
+        "image": "image/14.png"
+    },
+    {
+        "id": 15,
+        "name":" TRADITIONAL ENLONGATED MASK",
+        "price": 15000,
+        "image": "image/15.png"
+    },
+    {
+        "id": 16,
+        "name":" WOODEN HAND PAINTED ART",
+        "price": 25000,
+        "image": "image/16.png"
+    },
+    {
+        "id": 17,
+        "name":" WOODEN MAP OF AFRICA MUSICAL ART [LARGE]",
+        "price": 95000,
+        "image": "image/17.png"
+    },
+    {
+        "id": 18,
+        "name":" TRADITIONAL DRUMS [SMALL]",
+        "price": 10000,
+        "image": "image/18.png"
+    },
+    {
+        "id": 19,
+        "name":" ENLONGATED WOODEN MASK",
+        "price": 15000,
+        "image": "image/19.png"
+    },
+    {
+        "id": 20,
+        "name":" LITTLE WOODEN PEOPLE",
+        "price": 20000,
+        "image": "image/20.png"
+    },
+    {
+        "id": 21,
+        "name":" BENIN TRADITIONAL MASK [LARGE]",
+        "price": 95000,
+        "image": "image/21.png"
+    },
+    {
+        "id": 22,
+        "name":" HAND CRAFTED DETAILED MAP OF AFRICA [MEDIUM]",
+        "price": 65000,
+        "image": "image/22.png"
+    },
+    {
+        "id": 23,
+        "name":" ENLONGATED MASK [LARGE]",
+        "price": 110000,
+        "image": "image/23.png"
+    },
+    {
+        "id": 24,
+        "name":" TRADITIONAL DRUM [SMALL]",
+        "price": 10000,
+        "image": "image/24.png"
+    },
+    {
+        "id": 25,
+        "name":" LITTLE WOMAN",
+        "price": 25000,
+        "image": "image/25.png"
+    },
+    {
+        "id": 26,
+        "name":" DECORATIVE STOOL AND BOWL",
+        "price": 65000,
+        "image": "image/26.png"
+    },
+    {
+        "id": 27,
+        "name":" TRADITIONAL ENLONGATED MASK [SMALL]",
+        "price": 7000,
+        "image": "image/27.png"
+    },
+    {
+        "id": 28,
+        "name":" GOLD BENIN ROYALTIES",
+        "price": 155000,
+        "image": "image/28.png"
+    },
+    {
+        "id": 29,
+        "name":" HAND CRAFTED MASK [LARGE]",
+        "price": 125000,
+        "image": "image/29.png"
+    },
+    {
+        "id": 30,
+        "name":" HAND CRAFTED ENLONGATED MASKS",
+        "price": 150000,
+        "image": "image/30.png"
+    },
+    {
+        "id": 31,
+        "name":" AUTHENTIC METAL BENIN MASK [MEDIUM]",
+        "price": 95000,
+        "image": "image/31.png"
+    },
+    {
+        "id": 32,
+        "name":" MAP OF AFRICA ANIMAL ART [EXTRA LARGE]",
+        "price": 150000,
+        "image": "image/32.png"
+    },
+    {
+        "id": 33,
+        "name":" HAND CRAFTED ENLONGATED HEAD [LARGE]",
+        "price": 95000,
+        "image": "image/33.png"
+    },
+    {
+        "id": 34,
+        "name":" AUTHENTIC METAL BENIN MASK [LARGE]",
+        "price": 190000,
+        "image": "image/34.png"
+    },
+    {
+        "id": 35,
+        "name":" MINI BENIN MASK",
+        "price": 15000,
+        "image": "image/35.png"
+    },
+    {
+        "id": 36,
+        "name":" MINI PALMWINE TAPPER ",
+        "price": 15000,
+        "image": "image/36.png"
+    },
+    {
+        "id": 37,
+        "name":" HAND CRAFTED LOVE ART FLOWERS ART [MEDIUM]",
+        "price": 45000,
+        "image": "image/37.png"
+    },
+    {
+        "id": 38,
+        "name":" HALF SINGLE WINGED BUTTERFLY FLOWER ARRANGEMENT ART [MEDIUM]",
+        "price": 50000,
+        "image": "image/38.png"
+    },
+    {
+        "id": 39,
+        "name":" HAND MADE FLOWER ARRANGEMENT ART [MEDIUM]",
+        "price": 35000,
+        "image": "image/39.png"
+    },
+    {
+        "id": 40,
+        "name":" HAND MADE SINGLE WINGED BUTTERFLY ART [MEDIUM]",
+        "price": 45000,
+        "image": "image/40.png"
+    }
+]
